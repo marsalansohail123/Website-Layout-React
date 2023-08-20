@@ -1,0 +1,55 @@
+/* nav::selection {
+    background-color: black;
+    color: aliceblue;
+} */
+
+.background {
+    background-image: url("./assets/bg-home.jpg");
+    background-size: cover;
+    /* width: 100vw; */
+    height: 100vh;
+}
+
+.backColor {
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    /* width: 100vw; */
+    height: 100vh;
+}
+
+.banner {
+    height: 84vh;
+}
+
+.banner h1 {
+    font-size: 50px !important;
+}
+
+.marginB {
+    border-bottom: 2px solid red;
+    display: inline-block;
+    width: 43px;
+}
+
+.sec4 {
+    background-image: url('./assets/img-1.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.sec4Color {
+    background: linear-gradient(to right, #512da8, #711e72);
+    opacity: 0.9;
+    /* width: 100vw; */
+    height: 100%;
+}
+
+.footInp::placeholder{
+    color: white;
+}
+
+.foot2{
+    background-color: #2e313a;
+}
